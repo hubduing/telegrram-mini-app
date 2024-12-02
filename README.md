@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# telegrram-mini-app
+Telegram Mini App — это веб-приложения, которые запускаются внутри мессенджера Telegram. Они создаются с использованием HTML, CSS и JavaScript и выглядят как обычные сайты.
 
 ## Available Scripts
 
