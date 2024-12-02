@@ -1,69 +1,58 @@
-# telegrram-mini-app
-Telegram Mini App — это веб-приложения, которые запускаются внутри мессенджера Telegram. Они создаются с использованием HTML, CSS и JavaScript и выглядят как обычные сайты.
+# Telegram Mini App - Мемори
 
-## Available Scripts
+Telegram Mini App — это веб-приложение, запускающееся внутри мессенджера Telegram. В данном проекте представлена игра "Мемори", которая тренирует память и внимательность.
 
-In the project directory, you can run:
+## Описание игры
+
+**Мемори** — это карточная игра, в которой игроки открывают карточки, чтобы находить пары с одинаковыми изображениями. Игра подходит для игроков всех возрастов и может быть сыграна как в одиночку, так и с друзьями.
+
+### Основные функции:
+- Игра на память с уникальными карточками.
+- Возможность делиться результатами через Telegram.
+- Интуитивно понятный интерфейс и простые правила.
+
+## Установка и запуск
+
+В проектной директории вы можете запустить:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Запускает приложение в режиме разработки.\
+Откройте [http://localhost:3000](http://localhost:3000) в вашем браузере, чтобы увидеть его.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Страница будет автоматически перезагружена при внесении изменений.\
+Вы также можете увидеть любые ошибки линтинга в консоли.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Собирает приложение для продакшена в папке `build`.\
+Корректно упаковывает React в продакшен-режиме и оптимизирует сборку для наилучшей производительности.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `yarn test`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Запускает тестовый раннер в интерактивном режиме.\
+Смотрите раздел о [запуске тестов](https://facebook.github.io/create-react-app/docs/running-tests) для получения дополнительной информации.
 
 ### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Примечание: это необратимая операция. После `eject` вы не сможете вернуться назад!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Если вы не удовлетворены инструментами сборки и настройками, вы можете выполнить `eject` в любое время. Эта команда удалит единую зависимость сборки из вашего проекта и скопирует все файлы конфигурации и зависимые модули (webpack, Babel, ESLint и т.д.) прямо в ваш проект, чтобы у вас был полный контроль над ними.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Используемые технологии
+- **React**: для создания интерфейса.
+- **Telegram Web Apps SDK**: для интеграции с Telegram.
+- **HTML/CSS**: для разметки и стилей.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Как играть
+1. Откройте приложение в Telegram.
+2. Нажмите на карточки, чтобы открывать их.
+3. Найдите пары карточек с одинаковыми цветами.
+4. Делитесь своими результатами с друзьями через Telegram!
 
-## Learn More
+## Полезные ссылки
+- [Документация по Create React App](https://facebook.github.io/create-react-app/docs/getting-started)
+- [Документация по React](https://reactjs.org/)
+- [Документация по Telegram Web Apps](https://core.telegram.org/widgets/webapps)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
